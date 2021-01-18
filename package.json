@@ -1,4 +1,5 @@
 {
+  "version": "0.9.6",
   "name": "apollo-federation-monorepo",
   "private": true,
   "license": "MIT",
