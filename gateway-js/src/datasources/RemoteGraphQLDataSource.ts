@@ -144,7 +144,8 @@ export class RemoteGraphQLDataSource<TContext extends Record<string, any> = Reco
       ...http,
       body: JSON.stringify(requestWithoutHttp),
     });
-
+    console.log('REQUEST START');
+    console.log('REQUEST BODY: ' + JSON.stringify(requestWithoutHttp));
     let fetchResponse: Response | undefined;
 
     try {
